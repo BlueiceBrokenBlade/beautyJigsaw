@@ -1,0 +1,24 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+   <!-- 游戏主界面 -->
+
+	<GridLayout
+	    android:id="@+id/gl_main_game"
+	    android:layout_weight="1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"    
+	    android:columnCount="5"
+	    android:rowCount="3" >
+	</GridLayout>
+	<ImageView 
+	    android:id="@+id/originalImage"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"/>
+	
+</LinearLayout>
